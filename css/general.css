@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: transparent;
+
+    font-family: "inter", sans-serif;
+    line-height: 1;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #555;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.icon {
+    color: green;
+}
+
+.icon--small {
+    height: 3.2rem;
+    width: 3.2rem;
+    font-weight: 600;
+}
